@@ -192,13 +192,11 @@ function calcularAlturaTriangulo(){
     const value = Number(input.value);
 
     const input1 = document.getElementById("trianguloLado");
-    const value1= Number(input1.value1);
+    const value1= Number(input1.value);
 
 
 
     const altura = alturaTriangulo(value, value1);
-
-    consle.log("La altura del triangulo es: " + altura);
     alert("La altura del triangulo es: " + altura);
 
 }
