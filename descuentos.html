@@ -7,10 +7,46 @@
     <title>decuentos | curso practico de javascript</title>
 </head>
 <body>
-    <h1>porcentajes y descuentos</h1>
+    <header>
+        
+         <h1>porcentajes y descuentos</h1>
+        <p>curso practico de javascript</p>
+    </header>
+    <section>
+        <h2>calcular precio a pagar en productos con descuentos</h2>
+        <form action="">
+            <label  for="inputPrecio"> Escribe el precio de tu producto</label>
+            <input id="inputPrecio" type="number">
+
+            <label for="inputDescuento"> Escribe el descuento de tu producto</label>
+            <input id="inputDescuento" type="number">
+        
+            <button type="button" onclick="clickbutton()">Calcula el precio</button>
+
+            <p id="precioParrafo"></p>
+
+            <!--- ESTE ES OTRO CODIGO CON EJEMPLO PERRE HIJUEPUTA  --->
+
+            <form >
+                <label for="InputPrice">Escribe el precio de tu producto:</label>
+                <input type="number" id="InputPrice">
+    
+                <label for="inputCoupon">¿Escriba aquí si Tienes algun cupón de descuento?: </label>
+                <input type="text" id="inputCoupon">
+    
+                <button type="button" onclick="onClickButtonPriceDiscount()"> Agregar Cupon </button>
+    
+                <p id="priceWithCoupon"></p>
+            </form>
+
+
+        </form>
+    </section>
+
+
 
 
 
     <script src="./descuentos.js"></script>
 </body>
-</html>
+</html> 
